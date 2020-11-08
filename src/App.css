@@ -1,0 +1,49 @@
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#010fdd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+  --navBlack:#000000;
+  --silver:#C0C0C0;
+  --mainmodal:#EA8123;
+  --trash:#FF0000;
+}
+
+body{
+  font-family: 'Lobster', cursive !important;
+  background: var(--mainYellow) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: 'Piedra', cursive;
+}
+
+.text-blue{
+  color: var(--mainBlue);
+}
+
+.text-bright{
+  color: var(--lightBlue);
+}
+
+.btn-black{
+  background:transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color : var(--mainDark);
+  border-radius: 0.2rem !important;
+  border:0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainYellow) !important;
+}
+
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--trash);
+}
